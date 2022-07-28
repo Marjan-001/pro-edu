@@ -5,14 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pro-Edu</title>
+    <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/4898b6255b.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header class="container">
         <!-- Navbar start -->
-        <nav class="navbar navbar-expand-lg bg-white p-3">
+        <nav class="navbar navbar-expand-lg bg-white p-3 sticky-top">
             <div class="container">
                 <a class="navbar-brand fw-bolder fs-1" href="#">Pro-Edu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +52,11 @@
         </nav>
         <!-- Navbar end -->
         <!-- slider start -->
-        <section>
+        <section class="container">
             <div id="carouselExampleInterval" class="carousel slide rounded " data-bs-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active " data-bs-interval="10000">
-                        <img src="images/cover/cover-1.png" class=" img-fluid d-block w-100" alt="...">
+                        <img src="images/cover/cover-1.png" class=" img-fluid d-block w-100 " alt="...">
                         <div class="carousel-caption   d-md-block ">
                             <h1 class="  fw-bolder ">Get Started Digital <br>Learning</h1>
                             <p>Learn from world class mentors with us anytime,anywhere.</p>
@@ -64,9 +67,9 @@
                     </div>
 
 
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
                         <img src="images/cover/cover-3.jpg" class="img-fluid d-block w-100 " alt="...">
-                        <div class="carousel-caption  d-md-block  ">
+                        <div class="carousel-caption d-md-block  ">
                             <h1 class=" fw-bolder ">Get Started Digital <br>Learning</h1>
                             <p>Learn from world class mentors with us anytime,anywhere.</p>
 
@@ -102,8 +105,8 @@
         <!-- discover text end -->
         <!-- courses start -->
         <section class="container ">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 pt-5 ">
-                <div class=" card col-md-6 col-sm-12 mb-3" style="max-width: 540px;">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 gap-lg-2  g-4 pt-5  ">
+                <div class=" card col-md-6 col-sm-12 mb-3 p-0" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="images/course/course-1.png" class=" img-fluid rounded  w-100" alt="...">
@@ -117,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-6 col-sm-12 mb-3" style="max-width: 540px;">
+                <div class="card col-md-6 col-sm-12 mb-3 p-0" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="images/course/course-2.png" class="img-fluid rounded w-100" alt="...">
@@ -131,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-6 col-sm-12 mb-3" style="max-width: 540px;">
+                <div class="card col-md-6 col-sm-12 mb-3 p-0" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="images/course/course-3.png" class="img-fluid rounded w-100" alt="...">
@@ -145,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-6 col-sm-12 mb-3" style="max-width: 540px;">
+                <div class="card col-md-6 col-sm-12 mb-3 p-0" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="images/course/course-4.png" class="img-fluid rounded w-100" alt="...">
@@ -159,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-6 col-sm-12 mb-3" style="max-width: 540px;">
+                <div class="card col-md-6 col-sm-12 mb-3 p-0" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="images/course/course-5.png" class="img-fluid rounded w-100" alt="...">
@@ -173,7 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-6 col-sm-12 mb-3" style="max-width: 540px;">
+                <div class="card  col-md-6 col-sm-12 mb-3 p-0 " style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="images/course/course-6.png" class="img-fluid rounded w-100" alt="...">
@@ -198,11 +201,12 @@
         <!-- courses end -->
 
         <!-- explore start -->
-        <div class="container">
+        <div class="container ">
             <div class="row d-flex align-items-center pt-5">
                 <div class="col-sm-12 col-lg-6  ">
                     <img src="images/working.png" class="img-fluid " alt="">
                 </div>
+
                 <div class="col-sm-12 col-lg-6  ">
                     <h1 class="fw-bold">Explore The elearning Institute
                     </h1>
@@ -226,8 +230,9 @@
                     <button type="button" class=" mx-4 btn btn-primary btn-lg text-white">Read More</button>
 
                 </div>
-
             </div>
+
+        </div>
         </div>
         <!-- explore end -->
         <!-- register now start -->
@@ -320,6 +325,67 @@
         </section>
         <!-- faq heading text end -->
         <!-- feedback start -->
+        <section class=" container mt-5 mb-5">
+            <div class="d-flex flex-column align-items-center">
+                <h1>Some Students Feedback</h1>
+                <p>Opinions of our students about this course</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="d-flex p-4 justify-content-between">
+                            <div><img src="images/comma.png" alt=""></div>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="m-3 p-3">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt voluptas blanditiis vero, quae rerum inventore veniam officiis mollitia! Tenetur aliquid reprehenderit rem, ducimus neque blanditiis odio veniam
+                                    officia distinctio.</p>
+                            </div>
+                            <div class="d-flex m-3 ">
+                                <img class="p-3 img-fluid" src="images/student/student-5.png" alt="">
+                                <div>
+                                    <h5>Awlad Hossain</h5>
+                                    <p class="text-muted">UI/UX Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card">
+                        <div class="d-flex p-4 justify-content-between">
+                            <div><img src="images/comma.png" alt=""></div>
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="m-3 p-3">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias deserunt voluptas blanditiis vero, quae rerum inventore veniam officiis mollitia! Tenetur aliquid reprehenderit rem, ducimus neque blanditiis odio veniam
+                                    officia distinctio.</p>
+                            </div>
+                            <div class="d-flex m-3">
+                                <img class="p-3 img-fluid" src="images/student/student-6.png" alt="">
+                                <div>
+                                    <h5>Rupa Khan</h5>
+                                    <p class="text-muted">Graphic Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
         <!-- feedback end -->
 
@@ -409,6 +475,8 @@
             </a>
             <a href="www.intragram.com" class="pe-2"><i class="fa-brands fa-instagram"></i></a>
             <a href="www.linkdin.com" class="pe-2"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="www.tiktok.com" class="pe-2"><i class="fa-brands fa-tiktok"></i><a>
+            <a href="www.twitter.com" class="pe-2"><i class="fa-brands fa-twitter"></i><a>
 
         </div>
     </footer>
